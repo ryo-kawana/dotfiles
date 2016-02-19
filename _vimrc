@@ -24,16 +24,21 @@ nmap <CR> i<CR><ESC>
 "---------------------------
 " Start Neobundle Settings.
 "---------------------------
-" bundleで管理するディレクトリを指定
+" Required:
 set runtimepath+=~/.vim/bundle/neobundle.vim/
 
 " Required:
 call neobundle#begin(expand('~/.vim/bundle/'))
 
-" neobundle自体をneobundleで管理
+" Let NeoBundle manage NeoBundle
+" Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-" NERDTreeを設定
+" My Bundles here:
+" Refer to |:NeoBundle-examples|.
+" Note: You don't set neobundle setting in .gvimrc!
+
+" NERDTree
 NeoBundle 'scrooloose/nerdtree'
 
 call neobundle#end()
@@ -41,10 +46,23 @@ call neobundle#end()
 " Required:
 filetype plugin indent on
 
-" 未インストールのプラグインがある場合、インストールするかどうかを尋ねてくれるようにする設定
-" 毎回聞かれると邪魔な場合もあるので、この設定は任意です。
+" If there are uninstalled bundles found on startup,
+" this will conveniently prompt you to install them.
 NeoBundleCheck
 
 "---------------------------
 " End Neobundle Settings.
+"---------------------------
+
+"---------------------------
+" Start MacVim Settings.
+"---------------------------
+
+"if has('gui_macvim')
+"	set transparency=3
+"	set lines=90 columns=200
+"endif
+
+"---------------------------
+" End MacVim Settings.
 "---------------------------
