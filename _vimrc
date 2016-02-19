@@ -31,6 +31,9 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " neobundle自体をneobundleで管理
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+" NERDTreeを設定
+NeoBundle 'scrooloose/nerdtree'
+
 call neobundle#end()
 
 " Required:
