@@ -19,6 +19,8 @@ inoremap <C-l> <Right>
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
 
+nmap <CR> i<CR><ESC>
+
 "---------------------------
 " Start Neobundle Settings.
 "---------------------------
