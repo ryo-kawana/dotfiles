@@ -40,6 +40,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 " NERDTree
 NeoBundle 'scrooloose/nerdtree'
+" vim-force.com
+NeoBundle 'neowit/vim-force.com'
 
 call neobundle#end()
 
@@ -55,14 +57,15 @@ NeoBundleCheck
 "---------------------------
 
 "---------------------------
-" Start MacVim Settings.
+" Start vim-force.com Settings.
 "---------------------------
 
-"if has('gui_macvim')
-"	set transparency=3
-"	set lines=90 columns=200
-"endif
+"Required
+let g:apex_backup_folder="/Users/ryo.kawana/Develop/vim/vim-force.com/backup"
+let g:apex_temp_folder="/Users/ryo.kawana/Develop/vim/vim-force.com/temp"
+let g:apex_properties_folder="/Users/ryo.kawana/Develop/vim/vim-force.com"
+let g:apex_tooling_force_dot_com_path="/Users/ryo.kawana/Develop/vim/vim-force.com/tooling-force.com-0.3.4.2.jar"
 
 "---------------------------
-" End MacVim Settings.
+" End vim-force.com Settings.
 "---------------------------
