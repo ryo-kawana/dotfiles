@@ -42,6 +42,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'scrooloose/nerdtree'
 " vim-force.com
 NeoBundle 'neowit/vim-force.com'
+" memolist
+NeoBundle 'glidenote/memolist.vim'
 
 call neobundle#end()
 
