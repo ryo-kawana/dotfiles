@@ -21,6 +21,11 @@ cnoremap <C-n> <Down>
 
 nmap <CR> i<CR><ESC>
 
+nmap n nzz
+nmap N Nzz
+nmap * *zz
+nmap # #zz
+
 nnoremap <silent> [b :bprevious<CR>
 nnoremap <silent> ]b :bnext<CR>
 nnoremap <silent> [B :bfirst<CR>
