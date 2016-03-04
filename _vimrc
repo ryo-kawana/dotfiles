@@ -8,6 +8,7 @@ set laststatus=2
 set wildmenu
 set wildmode=full
 set history=200
+set nobackup
 
 syntax on
 
@@ -80,4 +81,12 @@ let g:apex_tooling_force_dot_com_path="/Users/ryo.kawana/Develop/vim/vim-force.c
 
 "---------------------------
 " End vim-force.com Settings.
+"---------------------------
+
+"---------------------------
+" Start memolist Settings.
+"---------------------------
+
+"---------------------------
+" End memolist Settings.
 "---------------------------
