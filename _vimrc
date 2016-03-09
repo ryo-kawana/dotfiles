@@ -9,6 +9,7 @@ set wildmenu
 set wildmode=full
 set history=200
 set nobackup
+set noundofile
 
 syntax on
 
