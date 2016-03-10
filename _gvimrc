@@ -1,0 +1,8 @@
+
+set transparency=3
+set guifont=Monaco:h16
+set lines=30 columns=100
+
+syntax enable
+set background=dark
+colorscheme darkblue
