@@ -57,6 +57,8 @@ NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'neowit/vim-force.com'
 " memolist
 NeoBundle 'glidenote/memolist.vim'
+" Lightline
+NeoBundle 'itchyny/lightline.vim'
 
 call neobundle#end()
 
@@ -86,9 +88,9 @@ let g:apex_tooling_force_dot_com_path="/Users/ryo.kawana/Develop/vim/vim-force.c
 "---------------------------
 
 "---------------------------
-" Start memolist Settings.
+" Start Lightline Settings.
 "---------------------------
 
 "---------------------------
-" End memolist Settings.
+" End Lightline Settings.
 "---------------------------
