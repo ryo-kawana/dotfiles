@@ -20,6 +20,7 @@ inoremap <C-l> <Right>
 
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
+cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 
 nmap <CR> i<CR><ESC>
 
