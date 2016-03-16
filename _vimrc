@@ -10,6 +10,7 @@ set wildmode=full
 set history=200
 set nobackup
 set noundofile
+set hlsearch
 
 syntax on
 
@@ -78,6 +79,7 @@ NeoBundleCheck
 "---------------------------
 
 "Required
+let g:apex_workspace_path="/Users/ryo.kawana/Develop/vim/vim-force.com/workspace"
 let g:apex_backup_folder="/Users/ryo.kawana/Develop/vim/vim-force.com/backup"
 let g:apex_temp_folder="/Users/ryo.kawana/Develop/vim/vim-force.com/temp"
 let g:apex_properties_folder="/Users/ryo.kawana/Develop/vim/vim-force.com"
