@@ -1,6 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Applications'
-let g:netrw_dirhist_2='/'
-let g:netrw_dirhist_3='/Users/ryo.kawana/.vim'
-let g:netrw_dirhist_4='/Users/ryo.kawana/.vim/bundle/neobundle.vim'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/ryo.kawana/Learning/vim/code/files/mvc/app'
+let g:netrw_dirhist_2='/Users/ryo.kawana/Learning/vim/code/files/mvc/app/controllers'
+let g:netrw_dirhist_3='/Users/ryo.kawana/Workspace/OneDrive/OneDrive - \u682a\u5f0f\u4f1a\u793e\u30d5\u30ec\u30af\u30c8/281.ZWEI'

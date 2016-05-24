@@ -2,8 +2,8 @@ set number
 set title
 set showmatch
 set tabstop=2
-set smartindent
-set shiftwidth=2
+"set smartindent
+"set shiftwidth=2
 set laststatus=2
 set wildmenu
 set wildmode=full
@@ -12,12 +12,15 @@ set nobackup
 set noundofile
 set hlsearch
 
+set tw=0
+
+set list listchars=tab:->
 syntax on
 
-inoremap <C-j> <Down>
-inoremap <C-k> <Up>
-inoremap <C-h> <Left>
-inoremap <C-l> <Right>
+"inoremap <C-j> <Down>
+"inoremap <C-k> <Up>
+"inoremap <C-h> <Left>
+"inoremap <C-l> <Right>
 
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
@@ -92,6 +95,10 @@ let g:apex_tooling_force_dot_com_path="/Users/ryo.kawana/Develop/vim/vim-force.c
 "---------------------------
 " Start Lightline Settings.
 "---------------------------
+
+let g:lightline = {
+      \ 'colorscheme': 'landscape'
+      \ }
 
 "---------------------------
 " End Lightline Settings.
