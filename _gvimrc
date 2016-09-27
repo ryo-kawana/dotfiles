@@ -1,8 +1,8 @@
 set nobackup
 set noundofile
 
-set transparency=3
-set guifont=Monaco:h16
+set transparency=0
+set guifont=Monaco:h13
 set lines=30 columns=100
 
 syntax enable
