@@ -1,7 +1,6 @@
 set number
 set title
 set showmatch
-set tabstop=2
 "set smartindent
 "set shiftwidth=2
 set laststatus=2
@@ -11,6 +10,11 @@ set history=200
 set nobackup
 set noundofile
 set hlsearch
+
+set tabstop=4
+set autoindent
+set expandtab
+set shiftwidth=4
 
 set tw=0
 
